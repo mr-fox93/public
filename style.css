@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poller+One&display=swap");
+/* font-family: 'Bebas Neue', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 25px;
+  font-family: "Bebas Neue";
+}
+
+#table-container {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  gap: 10px;
+  padding: 1rem;
+  font-family: "Bebas Neue";
+  color: yellow;
+}
+button,
+#buttons {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  background-color: transparent;
+  color: yellow;
+}
+
+button:hover {
+  font-size: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+#table-container td {
+  padding: 30px;
+}
+
+body {
+  background-image: url(/pxfuel.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 700px;
+  font-family: "Bebas Neue";
+}
+
+#details,
+#outputDiv {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: yellow;
+}
+
+.hidden {
+  display: none;
+}
+#details {
+  padding: 1.5rem;
+  border-radius: 15px;
+  border: 2px solid yellow;
+  font-size: 20px;
+}
+
+#searchInput,
+#searchInputOne {
+  border: 2px solid yellow;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 0.3rem;
+  color: yellow;
+}
+
+.search-div {
+  padding: 1.5rem;
+  border-radius: 15px;
+  border: 2px solid yellow;
+  font-size: 20px;
+}
